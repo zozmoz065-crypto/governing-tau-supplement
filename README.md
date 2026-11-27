@@ -2,12 +2,13 @@
 
 Code and data for the manuscript **“Architecting Organizational Cyber Resilience: A Governance-Centric Framework for Threat-Intelligence Absorption and Policy Translation Latency”** (Mohammed & Thakur, Shoolini University).
 
-No organizational data are used. Everything here regenerates the numerical results in Section 5.6 and the scoping counts in Table 1B.
+The online appendix is `Online_Appendix.pdf`. No organizational data are used. The code regenerates the numerical results in Section 5.6 and the scoping counts in Table 1B.
 
 ## Contents
 
 | File | Reproduces |
 |---|---|
+| `Online_Appendix.pdf` | Online Appendix A (governance-maturity instrument), B (worked τ example) and C (derivations of Results 1b, 3 and 5) |
 | `sim.py` | Discrete-event simulation of the triage queue (Results 1–2); defines the simulator used by `figs2.py` |
 | `figs.py` | Full pipeline: 10-replication validation (Table 4A), Figures 3–5 and the Result 1b grid check; writes `figs.json` |
 | `figs2.py` | Fast path: Figures 4–5 and the grid check, reusing the stored `figs.json` |
