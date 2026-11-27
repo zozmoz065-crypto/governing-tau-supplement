@@ -1,0 +1,11 @@
+OpenAlex scoping check (Table 1B). Run date: 27 November 2026. Count = meta.count of each URL.
+https://api.openalex.org/works?filter=title_and_abstract.search:%22threat%20intelligence%22
+https://api.openalex.org/works?filter=title_and_abstract.search:%22threat%20intelligence%22%20AND%20governance
+https://api.openalex.org/works?filter=title_and_abstract.search:%22threat%20intelligence%22%20AND%20governance%20AND%20(latency%20OR%20delay)
+https://api.openalex.org/works?filter=title_and_abstract.search:%22vulnerability%20management%22
+https://api.openalex.org/works?filter=title_and_abstract.search:%22vulnerability%20management%22%20AND%20governance
+https://api.openalex.org/works?filter=title_and_abstract.search:%22vulnerability%20management%22%20AND%20governance%20AND%20(delay%20OR%20latency)
+https://api.openalex.org/works?filter=title_and_abstract.search:%22patch%20management%22
+https://api.openalex.org/works?filter=title_and_abstract.search:%22patch%20management%22%20AND%20governance
+https://api.openalex.org/works?filter=title_and_abstract.search:%22patch%20management%22%20AND%20governance%20AND%20(delay%20OR%20latency)
+https://api.openalex.org/works?filter=title_and_abstract.search:%22translation%20latency%22%20AND%20(security%20OR%20cyber)
